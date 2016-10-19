@@ -106,4 +106,4 @@ reg.fit(ages, net_worths)
 
 print ("slope:", reg.coef_[0])
 print ("intercept:", reg.intercept_)
-print ("r-squared score:", reg.score(ages, net_worths))
+print ("r-squared score:", reg.score(ages_test, net_worths_test))
